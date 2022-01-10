@@ -281,7 +281,7 @@ body{
 }
 
 .to-top {
-  background: plum;
+  background: #702963;
   position: fixed;
   bottom: 16px;
   right: 32px;
@@ -303,7 +303,9 @@ body{
   pointer-events: auto;
   opacity: 1;
 }
-
+.to-top.active:hover { 
+  background: plum; 
+}
  
 
 #exp img{
@@ -342,6 +344,13 @@ body{
   color:#18d4ca;
   
 }
+#exp_a{  
+  font-size:20px;
+  cursor:pointer;
+  color:#fff;
+  background-color: #702963;
+}
+
 #exp3:hover,#exp4:hover{
   transform: scale(1.05);
   box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
