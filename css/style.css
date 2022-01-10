@@ -7,7 +7,6 @@ body{
   background-color: #fff;
   height: 100%;
   overflow-x: hidden;
-  transition: all 200ms linear;
 }
 ::-webkit-scrollbar {
   width: 6.5px;
