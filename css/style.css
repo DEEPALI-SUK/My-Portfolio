@@ -75,7 +75,7 @@ body{
     left: 0;
     right: 0;
     margin: auto;
-    background-color: orangered;
+    background-color: plum;
     color: transparent;
     width: 0%;
     content: '';
@@ -508,5 +508,8 @@ body{
   color: #702963;
 }
 #a1 i:hover{
+  color: plum;
+}
+#a3:hover{
   color: plum;
 }
